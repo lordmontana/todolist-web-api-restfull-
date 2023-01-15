@@ -1,0 +1,43 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:15735",
+      "sslPort": 44371
+    }
+  },
+    "profiles": {
+        "todolist_web_api": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "applicationUrl": "https://localhost:7140;http://localhost:5259",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "IIS Express": {
+            "commandName": "IISExpress",
+            "launchBrowser": true,
+            "launchUrl": "swagger",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    },
+        "ConnectionStrings": {
+            "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=TodoDB;Trusted_Connection=True;MultipleActiveResultSets=true"
+        },
+        "Logging": {
+            "LogLevel": {
+                "Default": "Information",
+                "Microsoft": "Warning",
+                "Microsoft.Hosting.Lifetime": "Information"
+            }
+        },
+        "AllowedHosts": "*"
+    
+}
